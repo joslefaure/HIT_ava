@@ -33,7 +33,7 @@ class MLPFeatureExtractor(nn.Module):
             fc1_dim_in += config.MODEL.HIT_STRUCTURE.DIM_OUT
 
         self.fc1 = nn.Linear(fc1_dim_in, representation_size)
-        self.fc2 = nn.Linear(representation_size, 512)
+        self.fc2 = nn.Linear(representation_size, representation_size)
 
         for l in [self.fc1, self.fc2]:
             nn.init.kaiming_uniform_(l.weight, a=1)
