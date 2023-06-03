@@ -6,23 +6,5 @@ The pretrained backbones, pretrained on Kinetics dataset is given by [Alphaction
 
 | backbone | pre-train | frame length | sample rate | top-1 | top-5 | model |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| SlowFast-R50 | Kinetics-700 | 4 | 16 | 66.34 | 86.66 | [[link]](https://drive.google.com/file/d/1bNcF295jxY4Zbqf0mdtsw9QifpXnvOyh/view?usp=sharing) |
-
-
-### J-HMDB Model
-
-| config | backbone  | mAP | model |
-| ------------- | ------------- | ------------- | ------------- |
-| [hitnet](config_files/hitnet.yaml) | SlowFast-R50 | 83.8 | [[link]]()
-
-### AVA Model
-
-Coming Soon
-
-### MultiSports Model
-
-Coming Soon
-
-### UCF101-24 Model
-
-Coming Soon
+| SlowFast-R50 | Kinetics-700 | 4 | 16 | 66.34 | 86.66 | [[link]](https://drive.google.com/file/d/1hqFuhD1p0lMpl3Yi5paIGY-hlPTVYgyi/view?usp=sharing) |
+| SlowFast-R101 | Kinetics-700 | 8 | 8 | 69.32 | 88.84 | [[link]](https://drive.google.com/file/d/1JDQLyyL-GFd3qi0S31Mdt5oNmUXnyJza/view?usp=sharing) |
