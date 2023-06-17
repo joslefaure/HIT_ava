@@ -13,7 +13,7 @@ class FCPredictor(nn.Module):
         if dropout_rate > 0:
             self.dropout = nn.Dropout(p=dropout_rate, inplace=True)
 
-        self.cls_score = nn.Linear(512, num_classes)
+        self.cls_score = nn.Linear(config.MODEL.HIT_STRUCTURE.DIM_INNER, num_classes)
 
         nn.init.normal_(self.cls_score.weight, std=0.01)
         nn.init.constant_(self.cls_score.bias, 0)
